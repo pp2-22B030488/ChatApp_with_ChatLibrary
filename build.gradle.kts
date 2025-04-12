@@ -38,7 +38,9 @@ android {
     }
 }
     dependencies {
-        implementation("com.example:chatlibrary:1.0.0")
+        implementation(project(":chatlibrary"))
+
+//        implementation("com.example:chatlibrary:1.0.0")
 
         implementation(libs.androidx.core.ktx)
         implementation(libs.androidx.appcompat)

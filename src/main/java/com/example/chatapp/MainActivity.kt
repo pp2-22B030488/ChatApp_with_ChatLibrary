@@ -13,5 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         val chatLibrary = ChatLibrary()
         chatLibrary.start(this)
+        finish() // ← это закроет MainActivity
+
     }
 }
+

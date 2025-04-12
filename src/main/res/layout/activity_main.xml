@@ -13,7 +13,7 @@
 
     <!-- Поле для ввода сообщений -->
     <EditText
-        android:id="@+id/messageInput"
+        android:id="@+id/messageEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Type a message"
